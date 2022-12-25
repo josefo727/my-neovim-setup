@@ -12,6 +12,9 @@ require('telescope').setup{
     }
   },
   pickers = {
+    git_files = {
+        show_untracked = true
+    }
     -- Default configuration for builtin pickers goes here:
     -- picker_name = {
     --   picker_config_key = value,
